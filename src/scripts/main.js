@@ -3,7 +3,7 @@ import notfound from "../notfound.png";
 function main() {
   const APP_KEY = "nYXRWb7Jcggei941LcopzmRXMt5DorpvdFukBMwQ";
   let page = 1;
-  const baseURL = `https://api-illustrations.icons8.com/api/v2/illustrations?token=${APP_KEY}`;
+  const baseURL = `https://cors-anywhere.herokuapp.com/https://api-illustrations.icons8.com/api/v2/illustrations?token=${APP_KEY}`;
 
   const getIllustrations = async (page) => {
     try {
