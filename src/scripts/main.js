@@ -67,7 +67,7 @@ function main() {
     illustrations.forEach((illustration) => {
       listIllustration.innerHTML += `
                 <a href="${
-                  illustration.urls.thumb.url
+                  illustration.urls.large.url
                 }" target="_blank" class="col-lg-4 col-md-6 col-sm-12 text-decoration-none" style="margin-top: 12px;">
                     <div class="card px-4 pt-4">
                       <img class="card-img-top card-illustration" src="${
