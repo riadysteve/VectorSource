@@ -35,7 +35,7 @@ function main() {
         </div>
       </div>`;
       const response = await fetch(
-        `https://api-illustrations.icons8.com/api/v2/illustrations/search?query=${name}&token=nYXRWb7Jcggei941LcopzmRXMt5DorpvdFukBMwQ`
+        `https://cors-anywhere.herokuapp.com/https://api-illustrations.icons8.com/api/v2/illustrations/search?query=${name}&token=nYXRWb7Jcggei941LcopzmRXMt5DorpvdFukBMwQ`
       );
       const responseJson = await response.json();
       // console.log(responseJson.illustrations);
